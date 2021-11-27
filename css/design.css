@@ -1,0 +1,66 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    text-align: center;
+}
+
+.head-part {
+    width: 100%;
+    height: 200px;
+    background-image: url(../images/bg-header-desktop.png);
+    background-size: cover;
+}
+
+.head-part span {
+    width: 200px;
+
+}
+
+.head-part i {
+    color: aqua;
+    font-size: 50px;
+}
+.computer-tag {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.description {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-company {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.image-company img {
+    flex-basis: 200px;
+}
+.url {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 300px;
+}
+.url p {
+    flex-basis:100px ;
+}
+.end {
+    display: grid;
+    grid-template-columns: 300px 800px 200px;
+    background-color: rgb(240, 237, 233);
+}
+
+.social-icon {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
