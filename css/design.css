@@ -1,15 +1,19 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+
 
 body {
     text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
 }
 
 .head-part {
     width: 100%;
-    height: 200px;
+    height: 170px;
     background-image: url(../images/bg-header-desktop.png);
     background-size: cover;
+  
 }
 
 .head-part span {
@@ -18,30 +22,52 @@ body {
 }
 
 .head-part i {
-    color: aqua;
+    color: hsl(171, 66%, 44%);
     font-size: 50px;
+    position: relative;
+    top: 55%;
 }
 .computer-tag {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+
 }
 .description {
     display: flex;
     flex-direction: column;
+    flex-basis: 345px;
+    text-align: initial;
+}
+
+.sub-description {
+    margin-bottom:30px ;
 }
 
 .feature {
     display: flex;
     flex-direction: row;
+    margin-bottom: 150px;
+    gap: 3%;
+    align-items: center;
+    justify-content: center;
+}
+.feature .element {
+    flex-basis: 22% ;
 }
 
 .image-company {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     gap: 100px;
+    margin-bottom: 100px;
 }
 .image-company img {
-    flex-basis: 200px;
+    flex-basis: 150px;
 }
 .url {
     display: flex;
@@ -64,3 +90,53 @@ body {
     justify-content: center;
     align-items: center;
 }
+.button-tag  {
+    margin-bottom: 80px;
+}
+
+.first-intro-text{
+    margin-bottom: 40px;
+    margin-right: calc(65%/2);
+    width: 35%;
+    margin-left: calc(65%/2);
+}
+.second-intro-text{
+    margin-bottom: 60px;
+    margin-right: calc(65%/2);
+    width: 35%;
+    margin-left: calc(65%/2);
+}
+.third-intro-text{
+    margin-bottom: 60px;
+    margin-right: calc(65%/2);
+    width: 35%;
+    margin-left: calc(65%/2);
+}
+.fourth-intro-text{
+    margin-bottom: 40px;
+    margin-right: calc(65%/2);
+    width: 35%;
+    margin-left: calc(65%/2);
+}
+.fifth-intro-text{
+    margin-bottom: 40px;
+    margin-right: calc(65%/2);
+    width: 35%;
+    margin-left: calc(65%/2);
+}
+
+.button-tag .first-button {
+    background-color:hsl(171, 66%, 44%) ;
+    border-radius: 25px;
+    color:white;
+    width: 10%;
+    height: 50px;
+}
+.button-tag .second-button {
+    background-color:hsl(233, 100%, 69%);
+    border-radius: 25px;
+    color:white;
+    width: 10%;
+    height: 50px;
+}
+
