@@ -17,7 +17,6 @@ body {
     height: 170px;
     background-image: url(../images/bg-header-desktop.png);
     background-size: cover;
-  
 }
 
 .head-part span {
@@ -166,4 +165,152 @@ p , .readme ,.details{
     left: 60px;
     top: 35px;
     color:hsl(171, 66%, 44%) ;
+}
+
+
+@media (max-width:375px){
+    body {
+        text-align: center;
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 18px;
+        margin-top:0px;
+        margin-right: 0px;
+        margin-left:0px ;
+    }
+    
+    .head-part i {
+        color: hsl(171, 66%, 44%);
+        font-size: 38pxs;
+        position: relative;
+        top: 55%;
+    }
+    .computer-tag {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+    
+    }
+    .computer-tag img {
+        width: 80%;
+    }
+    .description {
+        display: flex;
+        flex-direction: row;
+        flex-basis: 345px;
+        text-align: initial;
+    }
+    .feature {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 150px;
+        gap: 3%;
+        align-items: center;
+        justify-content: center;
+    }
+    .feature .element {
+        flex-basis: 22% ;
+    }
+    
+    .image-company {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+        margin-bottom: 100px;
+    }
+    .image-company img {
+        flex-basis: 50px;
+    }
+    .url {
+        margin-left: 100px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 700px;
+    }
+    .url p {
+        flex-basis:115px ;
+        margin-right: 50px;
+        text-align: initial;
+    }
+    .end {
+        display: grid;
+        grid-template-columns: 80%;
+        grid-template-rows: 800px 700px 200px;
+        background-color: hsl(0, 0%, 91%);
+    }
+    
+    .social-icon {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 180px;
+    }
+    .button-tag  {
+        margin-bottom: 80px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+.first-intro-text{
+    margin-bottom: 40px;
+    margin-right: 0px;
+    width: 90%;
+    margin-left: 0px;
+    text-align: center;
+}
+.second-intro-text{
+    margin-bottom: 60px;
+    margin-right: 0px;
+    width: 90%;
+    margin-left: 0px;
+}
+.third-intro-text{
+    margin-bottom: 60px;
+    margin-right: 0px;
+    width: 90%;
+    margin-left: 0px;
+}
+.fourth-intro-text{
+    margin-bottom: 40px;
+    margin-right: 0px;
+    width: 90%;
+    margin-left:0px;
+}
+.fifth-intro-text{
+    margin-bottom: 40px;
+    margin-right:0px;
+    width: 90%;
+    margin-left: 0px;
+}
+
+.button-tag .first-button {
+    background-color:hsl(171, 66%, 44%) ;
+    border-radius: 25px;
+    color:white;
+    width: 40%;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
+    border: none;
+}
+.button-tag .second-button {
+    background-color:hsl(233, 100%, 69%);
+    border-radius: 25px;
+    color:white;
+    width: 40%;
+    height: 40px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
+}
+.second-image img{
+    width: 90%;
+}
+
 }
