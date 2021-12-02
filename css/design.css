@@ -206,17 +206,25 @@ p , .readme ,.details{
         text-align: initial;
         align-items: center;
         justify-content: center;
+        text-align: center;
+        width: 325px;
+    }
+    .sub-description {
+        margin-bottom:30px ;
     }
     .feature {
         display: flex;
         flex-direction: column;
         margin-bottom: 150px;
-        gap: 3%;
+        gap: 10px;
         align-items: center;
         justify-content: center;
+        margin-right: calc(35px/2);
+        width: 340px;
+        margin-left: calc(35px/2);
     }
     .feature .element {
-        flex-basis: 22% ;
+        flex-basis: 325px;
     }
     
     .image-company {
@@ -289,9 +297,9 @@ p , .readme ,.details{
 }
 .third-intro-text{
     margin-bottom: 40px;
-    margin-right: calc(75px/2);
-    width: 320px;
-    margin-left: calc(75px/2);
+    margin-right: calc(35px/2);
+    width: 340px;
+    margin-left: calc(35px/2);
 }
 .fourth-intro-text{
     margin-bottom: 40px;
@@ -301,9 +309,9 @@ p , .readme ,.details{
 }
 .fifth-intro-text{
     margin-bottom: 40px;
-    margin-right: calc(75px/2);
-    width: 320px;
-    margin-left: calc(75px/2);
+    margin-right: calc(45px/2);
+    width: 330px;
+    margin-left: calc(45px/2);
 }
 
 .button-tag .first-button {
