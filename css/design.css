@@ -10,6 +10,7 @@ body {
     margin-top:50px;
     margin-right: 80px;
     margin-left:80px ;
+    line-height: 1.8;
 }
 
 .head-part {
@@ -177,10 +178,14 @@ p , .readme ,.details{
         margin-right: 0px;
         margin-left:0px ;
     }
-    
+    .head-part {
+        width: 320px;
+        position: relative;
+        left: calc(55px/2);
+    }
     .head-part i {
         color: hsl(171, 66%, 44%);
-        font-size: 38pxs;
+        font-size: 38px;
         position: relative;
         top: 55%;
     }
@@ -193,13 +198,14 @@ p , .readme ,.details{
     
     }
     .computer-tag img {
-        width: 80%;
+        width:  325px;
     }
     .description {
         display: flex;
-        flex-direction: row;
-        flex-basis: 345px;
+        flex-direction: column;
         text-align: initial;
+        align-items: center;
+        justify-content: center;
     }
     .feature {
         display: flex;
@@ -255,47 +261,56 @@ p , .readme ,.details{
     .button-tag  {
         margin-bottom: 80px;
         display: flex;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
         gap: 10px;
+        margin-left: calc(75px/2);
     }
     
 .first-intro-text{
     margin-bottom: 40px;
-    margin-right: 0px;
-    width: 90%;
-    margin-left: 0px;
-    text-align: center;
+    margin-right: calc(75px/2);
+    width: 335px;
+    margin-left: calc(75px/2);
 }
+.first-intro-text .heading-title{
+    margin-bottom: 40px;
+    margin-right: calc(75px/2);
+    width: 275px;
+    margin-left: calc(75px/2);
+}
+
 .second-intro-text{
-    margin-bottom: 60px;
-    margin-right: 0px;
-    width: 90%;
-    margin-left: 0px;
+    margin-bottom: 40px;
+    margin-right: calc(70px/2);
+    width: 325px;
+    margin-left: calc(70px/2);
 }
 .third-intro-text{
-    margin-bottom: 60px;
-    margin-right: 0px;
-    width: 90%;
-    margin-left: 0px;
+    margin-bottom: 40px;
+    margin-right: calc(75px/2);
+    width: 320px;
+    margin-left: calc(75px/2);
 }
 .fourth-intro-text{
     margin-bottom: 40px;
-    margin-right: 0px;
-    width: 90%;
-    margin-left:0px;
+    margin-right: calc(75px/2);
+    width: 320px;
+    margin-left: calc(75px/2);
 }
 .fifth-intro-text{
     margin-bottom: 40px;
-    margin-right:0px;
-    width: 90%;
-    margin-left: 0px;
+    margin-right: calc(75px/2);
+    width: 320px;
+    margin-left: calc(75px/2);
 }
 
 .button-tag .first-button {
     background-color:hsl(171, 66%, 44%) ;
     border-radius: 25px;
     color:white;
-    width: 40%;
+    width: 300px;
     height: 40px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
     border: none;
@@ -304,13 +319,13 @@ p , .readme ,.details{
     background-color:hsl(233, 100%, 69%);
     border-radius: 25px;
     color:white;
-    width: 40%;
+    width: 300px;
     height: 40px;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
 }
 .second-image img{
-    width: 90%;
+    width: 300px;
 }
 
 }
