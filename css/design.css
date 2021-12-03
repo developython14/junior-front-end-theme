@@ -185,7 +185,7 @@ p , .readme ,.details{
     }
     .head-part i {
         color: hsl(171, 66%, 44%);
-        font-size: 38px;
+        font-size: 60px;
         position: relative;
         top: 55%;
     }
@@ -236,26 +236,31 @@ p , .readme ,.details{
         margin-bottom: 100px;
     }
     .image-company img {
-        flex-basis: 50px;
+        flex-basis: 30px;
     }
     .url {
-        margin-left: 100px;
+        margin-left: 0px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 100%;
-        height: 700px;
+        width: 325px;
+        height: 600px;
     }
     .url p {
-        flex-basis:115px ;
-        margin-right: 50px;
-        text-align: initial;
+        flex-basis:325px ;
+        margin-right: 0px;
+        text-align: center;
+        margin-left: 0px;
     }
     .end {
         display: grid;
-        grid-template-columns: 80%;
-        grid-template-rows: 800px 700px 200px;
+        grid-template-columns: 325px;
+        margin-right: calc(70px/2);
+        margin-left: calc(70px/2);
+        grid-template-rows: 100px 600px 100px;
         background-color: hsl(0, 0%, 91%);
+        justify-content: center;
+        align-items: center;
     }
     
     .social-icon {
@@ -264,7 +269,7 @@ p , .readme ,.details{
         gap: 20px;
         justify-content: center;
         align-items: center;
-        margin-left: 180px;
+        margin-left: 0px;
     }
     .button-tag  {
         margin-bottom: 80px;
@@ -273,8 +278,8 @@ p , .readme ,.details{
         justify-content: center;
         align-items: center;
         gap: 10px;
-        margin-left: calc(75px/2);
-    }
+        margin-right: calc(70px/2);
+        margin-left: calc(70px/2);    }
     
 .first-intro-text{
     margin-bottom: 40px;
@@ -335,5 +340,13 @@ p , .readme ,.details{
 .second-image img{
     width: 300px;
 }
+.copy i{
+    font-size: 50px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    color:hsl(171, 66%, 44%) ;
+}
+
 
 }
